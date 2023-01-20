@@ -10,7 +10,7 @@ const data = [
     image: IMG1,
     title: "Application mobile Assurance 2 roues",
     github: "https://github.com/Corentin-Loignon/InsuranceApp",
-    demo: "https://github.com/Corentin-Loignon?tab=repositories",
+    demo: "https://imgur.com/a/AZaZF1q",
   },
   {
     id: 2,
