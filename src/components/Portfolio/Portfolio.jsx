@@ -3,35 +3,27 @@ import "./Portfolio.css";
 import IMG1 from "../../assets/portfolio1.png";
 import IMG2 from "../../assets/portfolio1.png";
 import IMG3 from "../../assets/portfolio1.png";
-import IMG4 from "../../assets/portfolio1.png";
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: "App mobile Qivio",
-    github: "https://github.com/Corentin-Loignon?tab=repositories",
+    title: "Application mobile Assurance 2 roues",
+    github: "https://github.com/Corentin-Loignon/InsuranceApp",
     demo: "https://github.com/Corentin-Loignon?tab=repositories",
   },
   {
     id: 2,
     image: IMG2,
     title: "App mobile Qivio",
-    github: "https://github.com/Corentin-Loignon?tab=repositories",
+    github: "https://github.com/Corentin-Loignon/InsuranceApp",
     demo: "https://github.com/Corentin-Loignon?tab=repositories",
   },
   {
     id: 3,
     image: IMG3,
     title: "App mobile Qivio",
-    github: "https://github.com/Corentin-Loignon?tab=repositories",
-    demo: "https://github.com/Corentin-Loignon?tab=repositories",
-  },
-  {
-    id: 4,
-    image: IMG4,
-    title: "App mobile Qivio",
-    github: "https://github.com/Corentin-Loignon?tab=repositories",
+    github: "https://github.com/Corentin-Loignon/InsuranceApp",
     demo: "https://github.com/Corentin-Loignon?tab=repositories",
   },
 ];
@@ -39,8 +31,8 @@ const data = [
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h5>Mes derniers projets</h5>
+      <h2>Mon portfolio</h2>
 
       <div className="container portfolio__container">
         {data.map(({ id, image, title, github, demo }) => {

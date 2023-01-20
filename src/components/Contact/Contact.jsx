@@ -19,8 +19,8 @@ const Contact = () => {
 
   return (
     <section id='contact'>
-      <h5>Get In Touch</h5>
-      <h2>Contactez-moi</h2>
+      <h5>Pour prendre contact</h5>
+      <h2>Contact</h2>
 
       <div className="container contact__container">
         <div className="contact__options">
@@ -28,13 +28,7 @@ const Contact = () => {
             <MdOutlineEmail className='contact__option-icon'/>
             <h4>Email</h4>
             <h5>corentin.loignon.pro@gmail.cmom</h5>
-            <a href="mailto:corentin.loignon.pro@gmail.com" target='_blank'>Envoyer un message</a>
-          </article>
-          <article className="contact__option">
-            <BsMessenger className='contact__option-icon'/>
-            <h4>Messenger</h4>
-            <h5>corentin.loignon</h5>
-            <a href="https://m.me/corentin.loignon" target='_blank'>Envoyer un message</a>
+            <a href="mailto:corentin.loignon.pro@gmail.com" target='_blank'>Envoyer un mail</a>
           </article>
           <article className="contact__option">
             <BsWhatsapp className='contact__option-icon'/>
@@ -42,12 +36,18 @@ const Contact = () => {
             <h5>+33 6 58 66 20 98</h5>
             <a href="https://api.whatsapp.com/send?phone=+33658662098" target='_blank'>Envoyer un message</a>
           </article>
+          <article className="contact__option">
+            <BsMessenger className='contact__option-icon'/>
+            <h4>Messenger</h4>
+            <h5>corentin.loignon</h5>
+            <a href="https://m.me/corentin.loignon" target='_blank'>Envoyer un message</a>
+          </article>
         </div>
 
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Votre nom et prénom' required />
           <input type="email" name='email' placeholder='Votre adresse email' required/>
-          <textarea name="message" rows="10" placeholder='Votre message...' required></textarea>
+          <textarea name="message" rows="13" placeholder='Votre message' required></textarea>
           <button type='submit' className='btn btn-primary'>Envoyer votre message</button>
         </form>
       </div>

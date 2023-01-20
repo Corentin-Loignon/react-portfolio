@@ -1,15 +1,15 @@
 import React from "react";
 import "./About.css";
 import ME from '../../assets/me-about.png'
-import {FaAward} from 'react-icons/fa'
+import {TbCertificate} from 'react-icons/tb'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc'
 
 const About = () => {
   return (
     <section id="about">
-      <h5>Get to Know</h5>
-      <h2>About Me</h2>
+      <h5>Ce qu'il faut savoir</h5>
+      <h2>A propos de moi</h2>
 
       <div className="container about__container">
         <div className="about__me">
@@ -21,27 +21,27 @@ const About = () => {
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
-              <FaAward className="about__icon"/>
-              <h5>Experience</h5>
-              <small>3+ Years Workings</small>
+              <TbCertificate className="about__icon"/>
+              <h5>Diplôme</h5>
+              <small>Titre RNCP Concepteur Développeur de solutions digitales</small>
             </article>
 
             <article className="about__card">
               <FiUsers className="about__icon"/>
               <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <small>1 Worldwide</small>
             </article>
 
             <article className="about__card">
               <VscFolderLibrary className="about__icon"/>
-              <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <h5>Projets</h5>
+              <small>1 Completed</small>
             </article>
           </div>
 
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt vitae minus, dolor adipisci, dignissimos facere possimus quam necessitatibus quaerat voluptates voluptatem aut nostrum. Saepe corrupti quod atque, sit exercitationem maiores!</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam quae quis cum aspernatur commodi ipsam est, vero alias, officia sed blanditiis dolores autem natus doloribus repudiandae quia voluptate quasi aut.</p>
 
-          <a href="#contact" className="btn btn-primary">Let's Talk</a>
+          <a href="#contact" className="btn btn-primary">Me contacter</a>
         </div>
       </div>
     </section>
