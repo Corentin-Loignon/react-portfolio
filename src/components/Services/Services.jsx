@@ -72,6 +72,26 @@ const Services = () => {
             </li>
           </ul>
         </article>
+
+        <article className="service">
+          <div className="service__head">
+            <h3>Autres services</h3>
+          </div>
+          <ul className="service__list">
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Comptabilité</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Audit</p>
+            </li>
+            <li>
+              <BiCheck className="service__list-icon" />
+              <p>Relation client</p>
+            </li>
+          </ul>
+        </article>
       </div>
     </section>
   );
