@@ -2,8 +2,6 @@ import React from "react";
 import "./About.css";
 import ME from '../../assets/me-about.png'
 import {TbCertificate} from 'react-icons/tb'
-import {FiUsers} from 'react-icons/fi'
-import {VscFolderLibrary} from 'react-icons/vsc'
 
 const About = () => {
   return (
@@ -23,19 +21,19 @@ const About = () => {
             <article className="about__card">
               <TbCertificate className="about__icon"/>
               <h5>Diplôme</h5>
-              <small>Titre RNCP Concepteur Développeur de solutions digitales</small>
+              <small>Titre RNCP «Concepteur Développeur de solutions digitales»</small>
             </article>
 
             <article className="about__card">
-              <FiUsers className="about__icon"/>
-              <h5>Clients</h5>
-              <small>1 Worldwide</small>
+              <TbCertificate className="about__icon"/>
+              <h5>Diplôme</h5>
+              <small>Diplôme de Comptabilité et de Gestion (DCG)</small>
             </article>
 
             <article className="about__card">
-              <VscFolderLibrary className="about__icon"/>
-              <h5>Projets</h5>
-              <small>1 Completed</small>
+              <TbCertificate className="about__icon"/>
+              <h5>Diplôme</h5>
+              <small>Certification Professionnelle de l’ENOES «Responsable de gestion comptable numérique»</small>
             </article>
           </div>
 

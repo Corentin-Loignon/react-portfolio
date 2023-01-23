@@ -34,7 +34,7 @@
     background: var(--color-bg-variant);
     border: 1px solid transparent;
     border-radius: 1rem;
-    padding: 2rem;
+    padding: 1.5rem;
     text-align: center;
     transition: var(--transition);
 }
@@ -48,7 +48,7 @@
 .about__icon {
     color: var(--color-primary);
     font-size: 1.4rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.7rem;
 }
 
 .about__card h5 {
@@ -92,7 +92,7 @@
     }
 
     .about__cards {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 1rem;
     }
 

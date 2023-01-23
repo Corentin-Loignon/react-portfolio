@@ -6,7 +6,7 @@ const Experience = () => {
   return (
     <section id="experience">
       <h5>Les compétences que je possède</h5>
-      <h2>Mon expérience</h2>
+      <h2>Mes compétences</h2>
 
       <div className="container experience__container">
         <div className="experience__frontend">
@@ -78,6 +78,39 @@ const Experience = () => {
               <div>
                 <h4>Flask Python</h4>
                 <small className="text-light">Basique</small>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div className="experience__backend">
+          <h3>Autres compétences</h3>
+          <div className="experience__content">
+          <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon"/>
+              <div>
+                <h4>Adobe XD</h4>
+                <small className="text-light">Intermédiaire</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon"/>
+              <div>
+                <h4>SAP</h4>
+                <small className="text-light">Intermédiaire</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon"/>
+              <div>
+                <h4>Aura Platinum</h4>
+                <small className="text-light">Expérimenté</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon"/>
+              <div>
+                <h4>Pack Office</h4>
+                <small className="text-light">Expérimenté</small>
               </div>
             </article>
           </div>

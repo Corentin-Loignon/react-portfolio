@@ -47,7 +47,7 @@ const Services = () => {
 
         <article className="service">
           <div className="service__head">
-            <h3>Développer de solutions digitales</h3>
+            <h3>Développer des solutions digitales</h3>
           </div>
           <ul className="service__list">
             <li>
