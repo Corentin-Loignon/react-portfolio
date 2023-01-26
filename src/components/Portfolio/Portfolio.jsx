@@ -1,8 +1,8 @@
 import React from "react";
 import "./Portfolio.css";
 import IMG1 from "../../assets/portfolio1.png";
-import IMG2 from "../../assets/portfolio1.png";
-import IMG3 from "../../assets/portfolio1.png";
+import IMG2 from "../../assets/portfolio2.png";
+
 
 const data = [
   {
@@ -15,16 +15,9 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: "App mobile Qivio",
-    github: "https://github.com/Corentin-Loignon/InsuranceApp",
-    demo: "https://github.com/Corentin-Loignon?tab=repositories",
-  },
-  {
-    id: 3,
-    image: IMG3,
-    title: "App mobile Qivio",
-    github: "https://github.com/Corentin-Loignon/InsuranceApp",
-    demo: "https://github.com/Corentin-Loignon?tab=repositories",
+    title: "Application web React Randonnées Quad",
+    github: "https://github.com/Corentin-Loignon/quad-loisirs",
+    demo: "https://quad-loisirs.netlify.app",
   },
 ];
 
