@@ -37,7 +37,7 @@ const About = () => {
             </article>
           </div>
 
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam quae quis cum aspernatur commodi ipsam est, vero alias, officia sed blanditiis dolores autem natus doloribus repudiandae quia voluptate quasi aut.</p>
+          <p>Suite à 5 années d'études dans le domaine comptable et audit, j'ai obtenu le Titre RNCP «Concepteur Développeur de solutions digitales» dans le but de devenir Développeur Fullstack.</p>
 
           <a href="#contact" className="btn btn-primary">Me contacter</a>
         </div>

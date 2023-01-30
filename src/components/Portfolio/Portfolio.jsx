@@ -8,7 +8,7 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: "Application mobile Assurance 2 roues",
+    title: "App mobile React Native Assurance 2 roues",
     github: "https://github.com/Corentin-Loignon/InsuranceApp",
     demo: "https://imgur.com/a/AZaZF1q",
   },
