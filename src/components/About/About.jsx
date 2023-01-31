@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import ME from '../../assets/me-about.png'
+import ME2 from '../../assets/me.png'
 import {TbCertificate} from 'react-icons/tb'
 
 const About = () => {
